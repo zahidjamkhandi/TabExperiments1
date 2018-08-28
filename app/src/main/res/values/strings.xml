@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Game of STRINGS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_functions">String functions</string>
+    <string name="stringbuffer">StringBuffer</string>
+    <string name="about_us">About Us</string>
+    <string name="select_any_string_function">Select Any String Function</string>
+    <string name="string_length">String Length</string>
+    <string name="string_concatenate">String Concatenate</string>
+    <string name="charat">charAt</string>
+    <string name="string_comparison">String Comparison</string>
+    <string name="equals">equals</string>
+    <string name="equalsignorecase">equalsIgnoreCase</string>
+    <string name="getchars">getChars</string>
+    <string name="getbytes">getbytes</string>
+    <string name="compareto">compareTo</string>
+    <string name="indexof">indexOf</string>
+    <string name="lastindexof">lastIndexOf</string>
+    <string name="substring">substring</string>
+    <string name="trim">Trim</string>
+    <string name="replace">replace</string>
+    <string name="tolowercase">toLowerCase</string>
+    <string name="touppercase">touppercase</string>
+    <string name="select_any_stringbuffer_function">Select any StringBuffer function</string>
+    <string name="length">length</string>
+    <string name="capacity">capacity</string>
+    <string name="setlength">setlength</string>
+    <string name="append">append</string>
+    <string name="insert">insert</string>
+    <string name="reverse">reverse</string>
+    <string name="delete">delete</string>
+    <string name="deletecharat">deletecharat</string>
+    <string name="_1_atifhusain_hunachagi_dept_of_ise_5th_sem">1)Atifhusain Hunachagi</string>
+    <string name="atifhusain_hunachagi">Atifhusain Hunachagi</string>
+    <string name="_1_atifhusain_hunachagi">1)Atifhusain Hunachagi</string>
+    <string name="dept_of_ise_5th_sem">    Dept of ISE 5th SEM</string>
+    <string name="_2_zahid_jamkhandi">2)Zahid Jamkhandi</string>
+    <string name="d1">Description and Operation</string>
+    <string name="stringlength_f1">
+        The length of a string is the number of characters that it contains. To obtain this value, call the   length( ) method, shown here:
+        \n\n int length( )</string>
+    <string name="stringconcatenate_f1">The + operator, concatenates two strings, producing a String object as the result. This allows you to chain together a series of + operations. For example, the following  fragment concatenates three strings:\n\n</string>
+    <string name="char_at_f1">To extract a single character from a String, you can refer directly to an individual character via the charAt( ) method. It has this general form:
+                     \n\n    char charAt(int where);
+</string>
+    <string name="equals_f1">To compare two strings for equality, use equals( ). It has this general form:
+                   \n\n      boolean equals(Object str)
+</string>
+    <string name="eqalsignorecase_f1">The equals() comparison is case-sensitive. To perform a comparison that ignores case differences, call equalsIgnoreCase( ).
+When it compares two strings, it considers A-Z to be the same as a-z. It has this general form:
+                       \n\n     boolean equalsIgnoreCase(String str)
+</string>
+    <string name="getchars_f1">If you need to extract more than one character at a time, you can use the
+	getChars( ) method.
+It has this general form: \n\n
+void getChars(int sourceStart, int sourceEnd, char target[ ], int targetStart) \n
+\n Here, sourceStart specifies the index of the beginning of the substring, and sourceEnd specifies an index that is one past the end of the desired substring.
+</string>
+    <string name="getbytes_f1">There is an alternative to getChars( ) that stores the characters in an array of bytes. This method is called getBytes( ), and it uses the default character-to-byte conversions provided by the platform. Here is its simplest form:
+                                               \n\n  byte[ ] getBytes( ) \n
+\nOther forms of getBytes( ) are also available</string>
+    <string name="compareto_f1">Often, it is not enough to simply know whether two strings are identical. For sorting applications, you need to know which is less than, equal to, or greater than the next. \n
+        A string is less than another if it comes before the other in dictionary order. A string is greater than another if it comes after the other in dictionary order. \n
+The String method compareTo( ) serves this purpose. It has this general form: \n
+  \n      int compareTo(String str) \n
+\nHere, str is the String being compared with the invoking String.
+</string>
+
+    <string name="indexof_f1">The String class provides two methods that allow you to search a string for a specified character or substring:
+indexOf( ) Searches for the first occurrence of a character or substring.
+        To search for the first occurrence of a character, use \n
+\n int indexOf(int ch)\n
+        You can specify a starting point for the search using these forms:
+\n\n int indexOf(int ch, int startIndex)
+       \n \n int indexOf(String str, int startIndex)
+        \n\n Here, startIndex specifies the index at which point the search begins.
+        \n the search runs from startIndex to the end of the string.
+
+</string>
+    <string name="lastindexof_f1"> (continuation of previous function)\n
+    lastIndexOf( ) Searches for the last occurrence of a character or substring.\n
+These two methods are overloaded in several different ways. In all cases, the methods return the index at which the character or substring was found, or –1 on failure.
+        \n You can specify a starting point for the search using these forms:
+\n \n int lastIndexOf(int ch, int startIndex)
+     \n   \n int lastIndexOf(String str, int startIndex)
+     \n   \n Here, startIndex specifies the index at which point the search begins.
+     \n   \nthe search runs from startIndex to zero.
+
+    </string>
+    <string name="substring_f1">You can extract a substring using substring( ). It has two forms. The first is
+\n\n String substring(int startIndex)
+\n\n Here, startIndex specifies the index at which the substring will begin. This form returns a copy of the substring that begins at startIndex and runs to the end of the invoking string.
+</string>
+    <string name="trtim_f1">The trim( ) method returns a copy of the invoking string from which any leading and trailing whitespace has been removed. It has this general form:
+\n\n String trim( )
+</string>
+    <string name="replace_f1">replaces all occurrences of one character in the invoking string with another character.
+\n It has the following general form:
+\n\n String replace(char original, char replacement)
+</string>
+    <string name="tolowercase_f1">The method toLowerCase( ) converts all the characters in a string from uppercase to lowercase.
+\n\n String toLowerCase( )
+    \n    \n method return a String object that contains the uppercase or lowercase equivalent of the invoking String.
+
+</string>
+    <string name="touppercase_f1">The toUpperCase( ) method converts all the characters in a string from lowercase to uppercase. Nonalphabetical characters, such as digits, are unaffected. Here are the general forms of these methods:
+      \n  \n String toUpperCase( )
+        \n\n method return a String object that contains the uppercase or lowercase equivalent of the invoking String.
+</string>
+
+    //string buffer from here
+
+    <string name="lenght_f2">The current length of a StringBuffer can be found via the length( ) method
+   \n\n  int length( )
+   </string>
+
+    <string name="capacity_f2">The total allocated capacity of StringBuffer() can be found through the capacity( ) method
+    \n\n int capacity( )
+</string>
+
+    <string name="ensurecapacity_f2">If you want to preallocate room for a certain number of characters after a StringBuffer has been constructed, you can use ensureCapacity( ) to set the size of the buffer.
+        \n This is useful if you know in advance that you will be appending a large number of small strings to a StringBuffer. ensureCapacity( ) has this general form:
+        \n\n void ensureCapacity(int capacity)
+</string>
+    <string name="setlength_f2">To set the length of the buffer within a StringBuffer object, use setLength( ). Its general form is shown here:
+        \n\n void setLength(int len)
+        \n\n Here, len specifies the length of the buffer. This value must be nonnegative.
+</string>
+    <string name="append_f2">The append( ) method concatenates the string representation of any other type of data to the end of the invoking StringBuffer object.
+\n It has several overloaded versions. Here are a few of its forms:
+\n\n StringBuffer append(String str)
+\n\n StringBuffer append(int num)
+\n\n StringBuffer append(Object obj)
+\n\n String.valueOf( ) is called for each parameter to obtain its string representation.
+\n The result is appended to the current StringBuffer object.
+\n The buffer itself is returned by each version of append().
+        \n you can try out the first syntax below
+    </string>
+    <string name="insert_f2">The insert( ) method inserts one string into another. It is overloaded to accept values of all the simple types, plus Strings, Objects, and CharSequences. Like append( ), it calls String.valueOf( ) to obtain the string representation of the value it is called with.
+\n This string is then inserted into the invoking StringBuffer object. These are a few of its forms:
+\n\n StringBuffer insert(int index, String str)
+\n\n StringBuffer insert(int index, char ch)
+\n\n StringBuffer insert(int index, Object obj)
+\n\n Here, index specifies the index at which point the string will be inserted into the invoking StringBuffer object.
+        \n you can try out the first syntax below
+</string>
+    <string name="reverse_f2">You can reverse the characters within a StringBuffer object using reverse( ), shown here:
+\n\n StringBuffer reverse( )
+\n\n This method returns the reversed object on which it was called. </string>
+    <string name="delete_f2">You can delete characters within a StringBuffer by using the methods delete( ) and deleteCharAt( ). These methods are shown here:
+\n\n StringBuffer delete(int startIndex, int endIndex)
+\n\n The delete( ) method deletes a sequence of characters from the invoking object.
+\n Here, startIndex specifies the index of the first character to remove, and endIndex specifies an index one past the last character to remove. Thus, the substring deleted runs from startIndex to endIndex–1. The resulting StringBuffer object is returned.
+ </string>
+    <string name="deletecharat_f2">The deleteCharAt( ) method deletes the character at the index specified by loc.
+        \n It returns the resulting StringBuffer object.
+        \n\n StringBuffer deleteCharAt(int loc)
+    </string>
+    <string name="replace_f2">You can replace one set of characters with another set inside a StringBuffer object by calling replace( ). Its signature is shown here:
+\n\n StringBuffer replace(int startIndex, int endIndex, String str)
+\n\n The substring being replaced is specified by the indexes startIndex and endIndex.
+\n Thus, the substring at startIndex through endIndex–1 is replaced. The replacement string is passed in str.
+\n The resulting StringBuffer object is returned.
+</string>
+    <string name="substring_f2">You can obtain a portion of a StringBuffer by calling substring( ). It has the following two forms:
+\n\n String substring(int startIndex)
+\n\n String substring(int startIndex, int endIndex)
+\n\n The first form returns the substring that starts at startIndex and runs to the end of the invoking StringBuffer object.
+\n The second form returns the substring that starts at startIndex and runs through endIndex–1.
+\n These methods work just like those defined for String that were described earlier.
+</string>
+
+    <string name="notice"><b>NOTE:</b>
+    \n\n <b>1)</b> If more then one syntax are present in the description, try out 1st syntax below
+        \n\n <b>2)</b> every field available in functions are displayed below, identify the correct feild as per syntax , and input to see the correct output , so as to learn the function
+        \n\n <b>3)</b> for more information on strings , visit email in <b><i>About us</i></b> tab part of app...
+    </string>
+
+</resources>
