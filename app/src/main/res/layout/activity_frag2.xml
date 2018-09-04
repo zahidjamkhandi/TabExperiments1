@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="7dp"
-    tools:context=".frag1">
+    tools:context=".frag2">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,47 +16,50 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/descript1"
+                android:id="@+id/descript2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorAccent"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
+            />
+
             <ImageView
-                android:id="@+id/seperator1_1"
+                android:id="@+id/seperator2_1"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:layout_below="@+id/descript1"
+                android:layout_below="@+id/descript2"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/holo_green_light" />
 
             <TextView
-                android:id="@+id/notice_display1"
+                android:id="@+id/notice_display2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/seperator1_1"
+                android:layout_below="@+id/seperator2_1"
                 android:layout_marginTop="10dp"
                 android:text="@string/notice"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+
+                />
 
             <ImageView
-                android:id="@+id/seperator1_2"
+                android:id="@+id/seperator2_2"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:layout_below="@+id/notice_display1"
+                android:layout_below="@+id/notice_display2"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/holo_green_light" />
 
-
             <TextView
-                android:id="@+id/try_program"
+                android:id="@+id/try_program2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/seperator1_2"
+                android:layout_below="@id/seperator2_2"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/try_out_the_example_below_here"
@@ -64,75 +67,82 @@
                 android:textSize="20sp"
                 android:textStyle="italic" />
 
-            //apply change to activity_frag2 from here;
-
             <EditText
-                android:id="@+id/str1"
+                android:id="@+id/bstr1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/try_program"
+                android:layout_below="@+id/try_program2"
+                android:hint="string / string 1"
                 android:layout_margin="5dp"
-                android:hint="string / string 1" />
+                />
 
             <EditText
-                android:id="@+id/str2"
+                android:id="@+id/bstr2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/str1"
+                android:layout_below="@+id/bstr1"
+                android:hint="string 2"
                 android:layout_margin="5dp"
-                android:hint="string 2" />
+                />
 
             <EditText
-                android:id="@+id/index1_1"
+                android:id="@+id/index2_1"
                 android:layout_width="175dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/str2"
+                android:layout_below="@+id/bstr2"
                 android:layout_margin="5dp"
-                android:hint="start index/location"
-                android:inputType="number" />
+                android:hint="start index/location" />
 
             <EditText
-                android:id="@+id/index1_2"
+                android:id="@+id/index2_2"
                 android:layout_width="189dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_below="@+id/str2"
+                android:layout_below="@+id/bstr2"
                 android:layout_margin="5dp"
-                android:layout_toRightOf="@+id/index1_1"
-                android:hint="end index/location"
-                android:inputType="number" />
+                android:layout_toRightOf="@+id/index2_1"
+                android:hint="end index/location" />
 
             <EditText
-                android:id="@+id/char1"
+                android:id="@+id/cap_len"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/index1_2"
-                android:layout_margin="5dp"
-                android:hint="char/string (ex: indexOf(char ch))" />
+                android:layout_below="@+id/index2_2"
+                android:hint="capacity/length"
+                android:layout_margin="5dp"/>
+
 
             <EditText
-                android:id="@+id/char12"
+                android:id="@+id/char2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/char1"
+                android:layout_below="@+id/cap_len"
+                android:hint="char"
+                android:layout_margin="5dp"/>
+
+            <EditText
+                android:id="@+id/char22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/char2"
                 android:layout_margin="5dp"
                 android:hint="char/string to be replaced with" />
 
+
+
             <Button
-                android:id="@+id/submit1"
+                android:id="@+id/submit2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_below="@+id/char12"
-                android:layout_margin="10dp"
+                android:layout_below="@+id/char22"
                 android:backgroundTint="@android:color/holo_blue_light"
-                android:onClick="output"
                 android:text="@string/submit"
-                android:textColor="@android:color/white"
                 android:textStyle="bold"
-
-                />
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:onClick="output2"/>
 
         </RelativeLayout>
 

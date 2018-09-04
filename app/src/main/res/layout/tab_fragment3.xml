@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/about_us"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="40sp"
+        android:textSize="38sp"
         android:textStyle="italic" />
 
     <ImageView
@@ -38,30 +38,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/_1_atifhusain_hunachagi"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dept_of_ise_5th_sem"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="italic"
                 android:textColor="@android:color/holo_blue_light"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/_2_zahid_jamkhandi"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dept_of_ise_5th_sem"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="italic"
                 android:textColor="@android:color/holo_blue_light"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/for_any_quries_contact_codersswift_gmail_com"
+                android:textSize="23sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
     </ScrollView>

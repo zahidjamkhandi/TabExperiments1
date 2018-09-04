@@ -41,7 +41,13 @@
     <string name="stringlength_f1">
         The length of a string is the number of characters that it contains. To obtain this value, call the   length( ) method, shown here:
         \n\n int length( )</string>
-    <string name="stringconcatenate_f1">The + operator, concatenates two strings, producing a String object as the result. This allows you to chain together a series of + operations. For example, the following  fragment concatenates three strings:\n\n</string>
+    <string name="stringconcatenate_f1">The + operator, concatenates two strings, producing a String object as the result. This allows you to chain together a series of + operations. For example, the following  fragment concatenates three strings:
+    \n\n also,
+       \n\n You can concatenate two strings using concat( ), shown here:
+\n\n String concat(String str)
+\n\n This method creates a new object that contains the invoking string with the contents of str appended to the end.
+\n concat( ) performs the same function as +.
+    </string>
     <string name="char_at_f1">To extract a single character from a String, you can refer directly to an individual character via the charAt( ) method. It has this general form:
                      \n\n    char charAt(int where);
 </string>
@@ -57,10 +63,12 @@ When it compares two strings, it considers A-Z to be the same as a-z. It has thi
 It has this general form: \n\n
 void getChars(int sourceStart, int sourceEnd, char target[ ], int targetStart) \n
 \n Here, sourceStart specifies the index of the beginning of the substring, and sourceEnd specifies an index that is one past the end of the desired substring.
-</string>
+\n\n <i><b>Notice : </b></i> the Target[] parameter has alredy been specified since it is required just to output the returned chars and targetStart has been set to 0
+    </string>
     <string name="getbytes_f1">There is an alternative to getChars( ) that stores the characters in an array of bytes. This method is called getBytes( ), and it uses the default character-to-byte conversions provided by the platform. Here is its simplest form:
                                                \n\n  byte[ ] getBytes( ) \n
-\nOther forms of getBytes( ) are also available</string>
+\nOther forms of getBytes( ) are also available
+    </string>
     <string name="compareto_f1">Often, it is not enough to simply know whether two strings are identical. For sorting applications, you need to know which is less than, equal to, or greater than the next. \n
         A string is less than another if it comes before the other in dictionary order. A string is greater than another if it comes after the other in dictionary order. \n
 The String method compareTo( ) serves this purpose. It has this general form: \n
@@ -71,9 +79,9 @@ The String method compareTo( ) serves this purpose. It has this general form: \n
     <string name="indexof_f1">The String class provides two methods that allow you to search a string for a specified character or substring:
 indexOf( ) Searches for the first occurrence of a character or substring.
         To search for the first occurrence of a character, use \n
-\n int indexOf(int ch)\n
+\n int indexOf(char ch)\n
         You can specify a starting point for the search using these forms:
-\n\n int indexOf(int ch, int startIndex)
+\n\n int indexOf(char ch, int startIndex)
        \n \n int indexOf(String str, int startIndex)
         \n\n Here, startIndex specifies the index at which point the search begins.
         \n the search runs from startIndex to the end of the string.
@@ -83,16 +91,18 @@ indexOf( ) Searches for the first occurrence of a character or substring.
     lastIndexOf( ) Searches for the last occurrence of a character or substring.\n
 These two methods are overloaded in several different ways. In all cases, the methods return the index at which the character or substring was found, or –1 on failure.
         \n You can specify a starting point for the search using these forms:
-\n \n int lastIndexOf(int ch, int startIndex)
+\n \n int lastIndexOf(char ch, int startIndex)
      \n   \n int lastIndexOf(String str, int startIndex)
      \n   \n Here, startIndex specifies the index at which point the search begins.
      \n   \nthe search runs from startIndex to zero.
 
     </string>
     <string name="substring_f1">You can extract a substring using substring( ). It has two forms. The first is
-\n\n String substring(int startIndex)
-\n\n Here, startIndex specifies the index at which the substring will begin. This form returns a copy of the substring that begins at startIndex and runs to the end of the invoking string.
-</string>
+\n\n String substring(int startIndex, int endIndex)
+\n\n Here, startIndex specifies the index at which the substring will begin and endIndex specifies the index at which the substring will end.
+        \n This form returns a copy of the substring that begins at startIndex and ends at endIndex of the invoking string.
+
+    </string>
     <string name="trtim_f1">The trim( ) method returns a copy of the invoking string from which any leading and trailing whitespace has been removed. It has this general form:
 \n\n String trim( )
 </string>
@@ -110,7 +120,9 @@ These two methods are overloaded in several different ways. In all cases, the me
         \n\n method return a String object that contains the uppercase or lowercase equivalent of the invoking String.
 </string>
 
+
     //string buffer from here
+
 
     <string name="lenght_f2">The current length of a StringBuffer can be found via the length( ) method
    \n\n  int length( )
@@ -174,8 +186,12 @@ These two methods are overloaded in several different ways. In all cases, the me
 
     <string name="notice"><b>NOTE:</b>
     \n\n <b>1)</b> If more then one syntax are present in the description, try out 1st syntax below
-        \n\n <b>2)</b> every field available in functions are displayed below, identify the correct feild as per syntax , and input to see the correct output , so as to learn the function
-        \n\n <b>3)</b> for more information on strings , visit email in <b><i>About us</i></b> tab part of app...
+        \n\n <b>2)</b> Every field available in functions are displayed below, identify the correct feild as per syntax , and input to see the correct output , so as to learn the function
+        \n\n <b>3)</b> For more information on strings , visit email in <b><i>About us</i></b> tab part of app...
     </string>
+    <string name="d2">Description and operation 2</string>
+    <string name="try_out_the_example_below_here"> <b>TRY OUT THE EXAMPLE BELOW HERE</b> </string>
+    <string name="submit"><b>SUBMIT</b></string>
+    <string name="for_any_quries_contact_codersswift_gmail_com">For any quries contact Codersswift@gmail.com</string>
 
 </resources>
