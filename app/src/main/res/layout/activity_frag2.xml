@@ -72,18 +72,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/try_program2"
-                android:hint="string / string 1"
                 android:layout_margin="5dp"
-                />
+                android:hint="stringBuffer / stringBuffer 1" />
 
             <EditText
                 android:id="@+id/bstr2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/bstr1"
-                android:hint="string 2"
                 android:layout_margin="5dp"
-                />
+                android:hint="stringBuffer 2" />
 
             <EditText
                 android:id="@+id/index2_1"
@@ -109,8 +107,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/index2_2"
-                android:hint="capacity/length"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                android:hint="capacity/length" />
 
 
             <EditText
@@ -118,8 +116,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/cap_len"
-                android:hint="char"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                android:hint="char" />
 
             <EditText
                 android:id="@+id/char22"
@@ -130,19 +128,18 @@
                 android:hint="char/string to be replaced with" />
 
 
-
             <Button
                 android:id="@+id/submit2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/char22"
-                android:backgroundTint="@android:color/holo_blue_light"
-                android:text="@string/submit"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
                 android:layout_alignParentRight="true"
+                android:layout_below="@+id/char22"
                 android:layout_margin="10dp"
-                android:onClick="output2"/>
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:onClick="output2"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
