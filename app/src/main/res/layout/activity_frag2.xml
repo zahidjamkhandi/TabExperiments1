@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/try_program2"
                 android:layout_margin="5dp"
-                android:hint="stringBuffer / stringBuffer 1" />
+                android:hint="stringBuffer / stringBuffer 1 (invoking)" />
 
             <EditText
                 android:id="@+id/bstr2"
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/bstr1"
                 android:layout_margin="5dp"
-                android:hint="stringBuffer 2" />
+                android:hint="stringBuffer 2 / string" />
 
             <EditText
                 android:id="@+id/index2_1"

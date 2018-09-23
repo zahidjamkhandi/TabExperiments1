@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/try_program"
                 android:layout_margin="5dp"
-                android:hint="string / string 1" />
+                android:hint="string / string 1 (invoking)" />
 
             <EditText
                 android:id="@+id/str2"
