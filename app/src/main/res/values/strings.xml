@@ -221,6 +221,6 @@ These two methods are overloaded in several different ways. In all cases, the me
     <string name="d2">Description and operation 2</string>
     <string name="try_out_the_example_below_here"> <b>TRY OUT THE EXAMPLE BELOW HERE</b> </string>
     <string name="submit"><b>SUBMIT</b></string>
-    <string name="for_any_quries_contact_codersswift_gmail_com">For any quries contact Codersswift@gmail.com</string>
+    <string name="for_any_quries_contact_codersswift_gmail_com">  ----------\nFor any quries contact \nwww.codersswift@gmail.com</string>
 
 </resources>
