@@ -90,7 +90,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_below="@+id/bstr2"
                 android:layout_margin="5dp"
-                android:hint="start index/location" />
+                android:hint="start index/location"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/index2_2"
@@ -100,7 +101,8 @@
                 android:layout_below="@+id/bstr2"
                 android:layout_margin="5dp"
                 android:layout_toRightOf="@+id/index2_1"
-                android:hint="end index/location" />
+                android:hint="end index/location"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/cap_len"
@@ -108,7 +110,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/index2_2"
                 android:layout_margin="5dp"
-                android:hint="capacity/length" />
+                android:hint="capacity/length"
+                android:inputType="number" />
 
 
             <EditText
